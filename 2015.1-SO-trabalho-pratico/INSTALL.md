@@ -12,7 +12,7 @@
 | sp          | Scheduler by Priority             |
 | sp_preemp   | Preemptive Scheduler by Priority  |
 
-# Instruções de Compilação:
+# Compilação:
 
 ```bash
 $ g++ -Wall -fexceptions -g -I./ -c ./main.cpp -o ./main.o
@@ -24,8 +24,10 @@ $ g++ -Wall -fexceptions -g -I./ -c ./process.cpp -o process.o
 $ g++ -o schedulerSO main.o process.o
 ```
 
-# Rodando o escalonador:
+# Execução:
+
+> O escalonador recebe dois argumentos, um arquivo de de texto e um modo de escalonamento ( fcfs | rr | rr_p | sjf | sjf_preemp | sp | sp_preemp ) :
 
 ```bash
-$ ./schedulerSO input.txt < fcfs | rr | rr_p | sjf | sjf_preemp | sp | sp_preemp >
+$ ./schedulerSO ./input.txt fcfs
 ```
