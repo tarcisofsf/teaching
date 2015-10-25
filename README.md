@@ -1,5 +1,6 @@
 #Teaching
 
-##Naming
+## Tarciso Ferreira 
+## Matheus Tavares
 
-[year].[semester]-[class]-[subject]
+2015.1 - Sistemas Operacionais - Escalonador
