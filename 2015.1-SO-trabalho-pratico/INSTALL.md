@@ -14,6 +14,8 @@
 
 # Compilação:
 
+> Dentro da pasta __source__ :
+
 ```bash
 $ g++ -Wall -fexceptions -g -I./ -c ./main.cpp -o ./main.o
 ```
