@@ -27,5 +27,5 @@ $ g++ -o schedulerSO main.o process.o
 # Rodando o escalonador:
 
 ```bash
-$ ./schedulerSO input.txt Argumento
+$ ./schedulerSO input.txt < fcfs | rr | rr_p | sjf | sjf_preemp | sp | sp_preemp >
 ```
