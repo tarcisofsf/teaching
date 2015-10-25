@@ -1,6 +1,6 @@
 # Introdução
 
-> O escalonador foi desnvolvido em C++ e compilado com g++ 4.8.4, foram implementados 6 tipo de escalonamento:
+> O escalonador foi desenvolvido em linguagem *C++*, Sistema Operacional *Ubuntu 14.04*  e compilador *g++ 4.8.4*, foram implementados 6 tipo de escalonamento:
 
 | Tipo        | Descrição                         |
 |-------------|-----------------------------------|
